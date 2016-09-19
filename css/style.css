@@ -1,0 +1,64 @@
+/*重置*/
+html,body,div,ul,li,dl,dt,dd,span,img,b,strong,h1,h2,h3,h4,h5,h6,i,em,p,a{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0 none; vertical-align: baseline;}
+.clearfix{*zoom:1;}
+.clearfix:after{content: "."; visibility: hidden;display: block;clear: both;height: 0; font-size: 0;}
+html,body,.swiper-container{ width:100%; height:100%;}
+html{font-size: 625%;}
+body{max-width: 750px; min-width: 320px; height: 100%; font-size: 0.24rem; font-family: "微软雅黑"; color: #000000; margin: 0 auto; background: #ff7439;}
+
+/*主体*/
+/*封面*/
+.my-index{width:7.5rem; height:6.19rem; padding-top: 7.15rem; background: url(../img/index-bg.jpg) no-repeat; background-size: 100% 100%;}
+.index-title{width: 3.8rem; height:0.88rem; line-height: 0.88rem; font-size: 0.5rem; color: #FFFFFF; margin: 0 auto; text-align: center;}
+.my-name{width: 5rem; height: 1rem; margin:0.3rem auto 0; padding-left:0.6rem;}
+.my-name li{float: left; width: auto; height: 1rem; margin-right: 0.1rem; font-size: 0.4rem; line-height: 1rem; color:#FFFFFF; font-weight: bold;}
+
+/*个人资料页*/
+.my-data{width: 7.5rem; height:11.99rem; padding-top:1.35rem; background: url(../img/my-data.jpg) no-repeat; background-size: 100% 100%;}
+.basic-data{width: 100%; height: auto; padding-left: 2rem;}
+.basic-data li{width: auto; height: 0.72rem; line-height: 0.72rem; font-size: 0.5rem; font-weight: 400; color: #0a0c24;}
+.basic-data .hobby{width: 5.15rem; height: 2.2rem;}
+.evaluate{ width:4.2rem; padding-left:3rem; height: auto; line-height: 0.72rem;font-size: 0.5rem; font-weight: 400; color: #0a0c24;}
+/*技能页*/
+.my-skill{width: 7.5rem; height: 8.08rem; padding-top: 5.26rem; background: url(../img/skill-bg.jpg) no-repeat; background-size: 100% 100%;}
+.my-skill li{width: 4.3rem; height: 0.64rem; margin: 0 auto 0.08rem;}
+.my-skill li img{float: left; width:0.64rem; height: 0.64rem;}
+.my-skill li span{float: left; width: 1rem; height: 0.34rem; margin:0.3rem 0 0 0.25rem; color:#f00; text-align:center; line-height: 0.34rem; font-weight: bold;}
+.my-skill div{float: left; width: 2rem; height: 0.3rem; margin: 0.22rem 0 0 0.25rem; background:#000; border:#fe7b43 3px solid; border-radius: 0.1rem;}
+.my-skill div i{display: block;height: 0.3rem; background:#ff0;}
+.my-skill .skill-cs3{margin-bottom: 0.22rem;}
+.skill-html i{width:1.8rem;}
+.skill-css i{width:1.8rem;}
+.skill-h5 i{width:1.2rem;}
+.skill-cs3 i{width:1.2rem;}
+.skill-dw i{width:1.8rem;}
+.skill-ps i{width:1.6rem;}
+.skill-js i{width:1.2rem;}
+.skill-ajax i{width:1rem;}
+
+/*作品页*/
+.works{width: 7.5rem; height: 11.84rem; padding-top:1.5rem; background: url(../img/works-bg.jpg) no-repeat; background-size: 100% 100%;}
+.work-1{width: 6rem; height: 3.8rem; margin:0 auto 0.7rem;}
+.work-1 dt{width: auto; height:0.6rem; line-height: 0.6rem; font-size: 0.36rem; font-weight: bold; color: #000000;}
+.work-1 dd{width:6rem; height: 3.2rem; margin-left:0rem;}
+.work-1 dd img{width: 100%; height: 100%;}
+
+.DEL{width:6.4rem; height:8.6rem; margin: 0 auto; overflow: hidden;}
+.work-2{width:8rem; height:8.6rem;}
+.work-2 li{ float:left; width:3rem; height: 4rem; margin:0 0.4rem 0.6rem 0;}
+.work-2 li span{display: block; text-align: center; width: 100%; height: 0.5rem; line-height: 0.5rem; font-size: 0.3rem; font-weight: bold; color: #000000;}
+.work-2 li img{display: block; width: 100%; height: 3.5rem;}
+
+/*尾页*/
+.last-page{width: 7.5rem; height: 12.64rem; padding-top: 0.7rem; background: url(../img/last-bg.jpg) no-repeat; background-size: 100% 100%; }
+.wx-code{width: 3rem; height: 3.72rem; margin: 0 auto;}
+.wx-code h3{width: 3rem; height: 0.72rem; line-height: 0.72rem; text-align: center; font-size: 0.4rem; color: #000000;}
+.wx-code img{display: block; width: 3rem; height: 3rem;}
+.my-QQ{width:auto; height: 0.7rem; line-height: 0.7rem; font-size: 0.3rem; color: #FFFFFF; margin:2.8rem 0 0 2.16rem;}
+.my-email{width:auto; height: 0.7rem; line-height: 0.7rem; font-size: 0.3rem; color: #FFFFFF; margin-left: 2.16rem;}
+.my-tel{width:auto; height: 0.7rem; line-height: 0.7rem; font-size: 0.3rem; color: #FFFFFF; margin: 0.85rem 0 0 2.16rem;}
+.last-name{width: auto; height: 0.8rem; line-height: 0.8rem; font-size: 0.4rem; color: #FFFFFF; margin:0.8rem 0 0 4.5rem;}
+.gotop{display: block; text-align: center; width:3rem; height: 0.9rem; line-height: 0.9rem; font-size: 0.3rem; font-weight: bold; color:#FFFFFF; background: #fea178; border-radius:50%; margin: 0.5rem auto 0;}
